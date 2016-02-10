@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &146330
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 455256}
+  - 114: {fileID: 11475732}
+  m_Layer: 0
+  m_Name: DataKeeper
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &455256
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 146330}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1851, y: 0, z: -362}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11475732
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 146330}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b6c774906eae46f884b2d24ed68b143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  practiceSignal: 4
+  currentPlayerName: 
+  currentSignal: 0
+  numberOfRuns: 0
+  signals: 00000000000000000000000000000000
+  isLoggedIn: 0
+  startTriggerTime: 0
+  startPlayTime: 0
+  numberOfLaneDepartures: 0
+  isForcedLaneDeparture: 0
+  autoSteeringEnabled: 0
+  autoSteeringPlusOrMinus: 0
+  degreesOfRotation: 0
+  isMessageReceived: 0
+  maxSteeringAngle: 0
+  maxSpeed: 0
+  autoSteeringAngle: 0
+  isSoundOn: 0
+  isTimeToTriggerMsg: 0
+  isLookingForMsgTrigger: 0
+  steeringInDegrees: 0
+  steeringDegThresholdForMsgTrigger: 0
+  straightZoneNumber: 0
+  steeringDegThresholdForResponse: 0
+  randomMsgsEnabled: 0
+  isPractice: 0
+  autoSteeringStartTime: 0
+  autoSteeringMaxTime: 0
+  numberOfForcedLaneDepartures: 0
+  totalElapsedAutoSteeringTime: 0
+  startSteeringDegreeAtAutoSteeringTriggered: 0
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 146330}
+  m_IsPrefabParent: 1
